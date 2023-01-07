@@ -1,0 +1,129 @@
+.coin-div {
+    border: 20px solid #151617;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+
+}
+
+.img-div {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.coin-img {
+    width: 10%;
+    margin-right: 8px;
+}
+
+.coinname {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: bold;
+    /* padding-top: 50px; */
+}
+
+.grid {
+    display: grid;
+
+}
+@media only screen and (min-width: 600px){
+.coinname{
+    padding-top: 40px;
+}
+}
+@media only screen and (max-width: 600px){
+.coin-img{
+    height: 40px;
+    width: auto;
+}
+.price{
+    font-size: 1rem;
+    /* margin-left: 40px; */
+    
+}
+.img-div{
+    margin-left: 10px;
+}
+.coinname{
+    font-weight: 200;
+    
+}
+
+
+}
+
+@media (min-width: 768px)  {
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+    }
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 25px;
+    line-height: 2.25rem;
+    font-weight: 200;
+    margin-left: 40px;
+    color:  rgb(7, 248, 7);
+}
+.market-cap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+padding-bottom: 1rem; 
+}
+.m-cap{
+    color: #6B7280 ; 
+font-size: 0.875rem;
+line-height: 1.25rem; 
+}
+.v-cap{
+
+    color: #6B7280; 
+    font-size: 0.875rem;
+    line-height: 1.25rem;  
+}
+.high-low{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+padding-bottom: 1rem; 
+}
+.m-stats{
+    font-size: 1.2rem;
+line-height: 1.75rem; 
+font-weight: 100; 
+color: gold;
+}
+.description{
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.coin-info{
+    font-size: 1.2rem;
+line-height: 1.75rem; 
+font-weight: 100;
+color: gold; 
+}
+.btn-primary {
+    width: 80vw ;
+    margin: 0 auto;
+    max-width: 40rem;
+    background: #151617;
+    padding: 1rem 2.5rem;
+    text-transform: capitalize;
+    border-radius: 24px;
+    box-shadow: none;
+    align-items: center;
+  }
